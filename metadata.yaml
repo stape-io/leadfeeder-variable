@@ -1,4 +1,7 @@
-homepage: "https://stape.io/"
+homepage: 'https://stape.io/'
+documentation: 'https://github.com/stape-io/leadfeeder-variable'
 versions:
+  - sha: 095358e5bae59ef12356a4a38b58e108e58e3bb4
+    changeNotes: Fix return in object extractor function.
   - sha: 8ab00550439ca39be7aa5242958e7ae85c6e122f
     changeNotes: Initial release.

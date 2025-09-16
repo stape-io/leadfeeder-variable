@@ -128,7 +128,7 @@ function sendRequest(url, requestOptions) {
 }
 
 function getByKey(keyName, obj) {
-    keyName.split('.').reduce(function (p, c) {
+    return keyName.split('.').reduce(function (p, c) {
         return p && p[c] || null;
     }, obj);
 }
